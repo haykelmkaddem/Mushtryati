@@ -35,7 +35,7 @@ function ReastaurentItem(props) {
         <TouchableOpacity style={{
             marginBottom:15,
         }}>
-           { props.restaurentData.map((restaurent, index)=> (
+           { localRestaurents.map((restaurent, index)=> (
                 <View key={index} style={{
                     marginTop:10,
                     padding:15,
